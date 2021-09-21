@@ -1,5 +1,5 @@
 {
-  "name": "jobs-app",
+  "name": "portfolio2021",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,6 @@
     "export": "next export"
   },
   "dependencies": {
-    "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "10.0.28",
     "@emotion/styled": "10.0.27",
     "closest": "0.0.1",
@@ -17,11 +16,12 @@
     "emotion-theming": "10.0.27",
     "lodash": "^4.17.20",
     "mathjs": "^8.1.1",
-    "next": "10.0.2",
+    "next": "^11.1.2",
     "pathfinding": "^0.4.18",
     "paths-js": "^0.4.11",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-cool-dimensions": "^2.0.7",
-    "react-dom": "17.0.1"
+    "react-dom": "^17.0.2",
+    "sharp": "^0.29.1"
   }
 }

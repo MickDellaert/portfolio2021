@@ -1,20 +1,20 @@
-import { projectlist } from "../../data";
-import NextLink from "next/link";
+import { projects } from "../../data";
+import Link from "next/link";
 import Image from "next/image";
 
 export const getStaticProps = async ({ params }) => {
-  const projectlistList = projectlist.filter(
+  const projectsList = projects.filter(
     (p) => p.id.toString() === params.id
   );
   return {
     props: {
-      project: projectlistList[0],
+      project: projectsList[0],
     },
   };
 };
 
 export const getStaticPaths = async () => {
-  const paths = projectlist.map((project) => ({
+  const paths = projects.map((project) => ({
     params: { id: project.id.toString() },
   }));
 
@@ -25,23 +25,36 @@ export default ({ project }) => (
   <div>
     <div>{project.name}</div>
     <div>{project.description}</div>
-    
-    <Image width={300} height={300} src={project.mainImage} />
+    <div>
+    <Link href={project.linkLive} passHref>
+    <a target="_blank" rel="noreferrer" >{project.linkName}</a>
+    </Link>
+    <Link href={project.linkGit} passHref>
+    <a target="_blank" rel="noreferrer" >Git</a>
+    </Link>
+    </div>
+
+    <Image
+      layout="responsive"
+      width={300}
+      height={300}
+      src={project.mainImage}
+    />
 
     <div>
-      {project.detailImage.map((elem) => {
+      {project.detailImage.map((detail) => {
         return (
           <>
-            <div key={elem}>
-              <Image width={300} height={300} alt="yes" src={elem} />
+            <div key={detail}>
+              <Image width={300} height={300} alt="yes" src={detail} />
             </div>
           </>
         );
       })}
     </div>
 
-    <NextLink href="/" passHref>
+    <Link href="/" passHref>
       <button>Back</button>
-    </NextLink>
+    </Link>
   </div>
 );

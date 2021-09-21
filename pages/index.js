@@ -1,4 +1,4 @@
-import { projectlist } from '../data';
+import { projects } from '../data';
 
 import Project from '../components/Project';
 import Navbar from "../components/Navbar";
@@ -6,19 +6,18 @@ import Navbar from "../components/Navbar";
 export const getStaticProps = async () => {
   return {
     props: {
-      projectlistLists: projectlist,
+      projectsLists: projects,
     },
   };
 };
 
-export default ({ projectlistLists }) => (
+export default ({ projectsLists }) => (
   <>
-      <Navbar/>
     <div>
       Projects
     </div>
-      {projectlistLists.map((projectlistList) => (
-        <Project key={projectlistList.id} {...projectlistList} />
+      {projectsLists.map((projectsList) => (
+        <Project key={projectsList.id} {...projectsList} />
       ))}
   </>
 );

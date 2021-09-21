@@ -49,6 +49,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     linkLive: "https://weather-app-mick.netlify.app/",
+    linkName: "Live",
     linkGit: "https://github.com/MickDellaert/weather-app",
     mainImage: "/Wheater_app_screenshot.jpg",
     detailImage: ["/reviews.png"],

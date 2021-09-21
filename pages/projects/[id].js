@@ -35,18 +35,18 @@ export default ({ project }) => (
     </div>
 
     <Image
-      layout="responsive"
+      
       width={300}
       height={300}
       src={project.mainImage}
     />
 
     <div>
-      {project.detailImage.map((detail) => {
+      {project.detailImage.map((detailUrl) => {
         return (
           <>
-            <div key={detail}>
-              <Image width={300} height={300} alt="yes" src={detail} />
+            <div key={detailUrl}>
+              <Image  width={300} height={300} alt="yes" src={detailUrl} />
             </div>
           </>
         );

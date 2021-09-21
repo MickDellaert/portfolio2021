@@ -15,4 +15,28 @@ a {
   box-sizing: border-box;
 }
 
+.pics {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
+
+/* .image-container {
+  width: 100%;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.image-container  div {
+  position: unset !important;
+  padding-top: 0 !important;
+  background-color: aqua;
+} */

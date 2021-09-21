@@ -1,7 +1,6 @@
-import { projects } from '../data';
+import { projects } from "../data";
 
-import Project from '../components/Project';
-import Navbar from "../components/Navbar";
+import Project from "../components/Project";
 
 export const getStaticProps = async () => {
   return {
@@ -13,11 +12,12 @@ export const getStaticProps = async () => {
 
 export default ({ projectsLists }) => (
   <>
-    <div>
-      Projects
-    </div>
+    <div>Projects</div>
+    <div className="pics">
+
       {projectsLists.map((projectsList) => (
         <Project key={projectsList.id} {...projectsList} />
       ))}
+    </div>
   </>
 );

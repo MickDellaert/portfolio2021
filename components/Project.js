@@ -9,8 +9,8 @@ const Project = ({ id, description, mainImage }) => (
       objectFit='cover'
         src={mainImage}
         alt={description}
-        width={300}
-        height={300}
+        width={200}
+        height={150}
         className={"image"}
       />
     </div>

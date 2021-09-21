@@ -19,10 +19,25 @@ a {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 20px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+body {
+  margin: 20px;
+}
+
+a{
+  margin-left: 10px;
+}
 
 /* .image-container {
   width: 100%;

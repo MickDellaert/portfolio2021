@@ -12,7 +12,6 @@ export const getStaticProps = async () => {
 
 export default ({ projectsLists }) => (
   <>
-    <div>Projects</div>
     <div className="pics">
 
       {projectsLists.map((projectsList) => (

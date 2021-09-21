@@ -21,8 +21,8 @@ export const getStaticPaths = async () => {
 
 export default ({ project }) => (
   <div>
-    <div>{project.name}</div>
-    <div>{project.description}</div>
+    <h2>{project.name}</h2>
+    <p>{project.description}</p>
     <div>
       <Link href={project.linkLive} passHref>
         <a target="_blank" rel="noreferrer">

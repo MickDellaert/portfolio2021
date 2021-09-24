@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -19,20 +23,23 @@ a {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin: 0 20px;
+  margin: 0 0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .logo {
   margin-right: auto;
+  cursor: pointer;
 }
 
 body {
-  margin: 20px;
+  margin: 50px;
 }
 
 a{

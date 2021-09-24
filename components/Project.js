@@ -10,7 +10,7 @@ const Project = ({ id, description, mainImage }) => (
         src={mainImage}
         alt={description}
         width={200}
-        height={150}
+        height={200}
         className={"image"}
       />
     </div>

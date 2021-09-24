@@ -4,9 +4,11 @@ import Image from 'next/dist/client/image';
 const Navbar = () => {
     return (
         <nav>
+            <Link href="/">
             <div className="logo">
-                <Image src="/MD_logo.png" alt="" width={50} height={50}/>
+                <Image src="/MD_logo_courier.svg" alt="" width={50} height={50}/>
             </div>
+            </Link>
             <div className="navlinks">
             <Link href="/"><a> Home </a></Link>
             <Link href="/projects"><a> Projects </a></Link>

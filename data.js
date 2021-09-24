@@ -29,8 +29,8 @@ export const projects = [
     linkLive: "https://react-to-do-app-mick.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/react-intro",
-    mainImage: "/Todo/todo-1.png",
-    detailImage: ["/Todo/todo-1.png"],
+    mainImage: "/Todo/todo-1.jpg",
+    detailImage: ["/Todo/todo-1.jpg"],
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ export const projects = [
     linkLive: "https://delish-delights.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/vue-api",
-    mainImage: "/Delish/Delish-1.jpg",
+    mainImage: "/Delish/Delish-2.jpg",
     detailImage: ["/Delish/Delish-1.jpg"],
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     linkLive: "https://weather-app-mick.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/weather-app",
-    mainImage: "/Weather/Weather-1.jpg",
+    mainImage: "/Weather/weather-phone-mockup-3.jpg",
     detailImage: ["/Weather/Weather-1.jpg"],
   },
   {
@@ -74,12 +74,12 @@ export const projects = [
     linkName: "Live",
     linkGit:
       "https://github.com/MickDellaert/01-rock-paper-scissors-lizard-spock",
-    mainImage: "/RockPaper/Rock-1.jpg",
+    mainImage: "/RockPaper/Rock-ipad-mockup.jpg",
     detailImage: ["/RockPaper/Rock-1.jpg"],
   },
   {
     id: 8,
-    name: "To be defined",
+    name: "FLWR",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     linkLive: "",

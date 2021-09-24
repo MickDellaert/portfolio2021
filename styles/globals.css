@@ -42,7 +42,7 @@ body {
   margin: 50px;
 }
 
-a{
+a {
   margin-left: 10px;
 }
 
@@ -61,4 +61,21 @@ a{
   position: unset !important;
   padding-top: 0 !important;
   background-color: aqua;
+} */
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+/* .project-navbuttons{
+  display: flex;
+  justify-content: space-between;
 } */

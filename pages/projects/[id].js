@@ -58,7 +58,7 @@ export default ({ project }) => (
                 objectFit="contain"
                 width={300}
                 height={300}
-                alt="yes"
+                alt={project.description}
                 src={detailUrl}
               />
             </div>

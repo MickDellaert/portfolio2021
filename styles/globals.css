@@ -23,19 +23,34 @@ a {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin: 0 0;
+  /* margin: 15px 0 0 0; */
 }
 
-nav {
+/* .navbar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+} */
+
+.navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .logo {
   margin-right: auto;
+  /* margin-left: 50px; */
   cursor: pointer;
+}
+
+.navlinks{
+  /* margin-right: 50px; */
 }
 
 body {
@@ -75,7 +90,7 @@ a {
   align-self: flex-end;
 }
 
-/* .project-navbuttons{
+.project-navbuttons {
   display: flex;
   justify-content: space-between;
-} */
+}

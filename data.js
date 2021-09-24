@@ -19,7 +19,7 @@ export const projects = [
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/angular-review-app",
     mainImage: "/Review/Reviewapp-1.jpg",
-    detailImage: ["/Review/Reviewapp-1.jpg"],
+    detailImage: ["/Review/reviewapp-phone-mockup.jpg"],
   },
   {
     id: 3,
@@ -82,9 +82,9 @@ export const projects = [
     name: "FLWR",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    linkLive: "",
-    linkName: "",
-    linkGit: "",
+    linkLive: "https://mickdellaert.github.io/FLWR/details.html",
+    linkName: "Live",
+    linkGit: "https://github.com/MickDellaert/FLWR",
     mainImage: "/To_be_defined/FLWR.jpg",
     detailImage: ["/To_be_defined/FLWR.jpg"],
   },

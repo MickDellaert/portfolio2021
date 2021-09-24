@@ -2,17 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Koh+Santepheap&family=Martel:wght@200;300;400;600;700;800;900&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: Heebo;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: Martel;
+  font-weight: 300;
+}
+
+.span {
+  font-family: Martel;
+  font-weight: 700;
+  color: #059669;
+  white-space: nowrap;
+}
+
+.line {
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  text-shadow:
+    3px 3px white,
+    3px -3px white,
+    -3px 3px white,
+    -3px -3px white;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 * {
@@ -20,9 +48,9 @@ a {
 }
 
 .pics {
-  display: grid;
+  /* display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
   /* margin: 15px 0 0 0; */
 }
 
@@ -36,12 +64,12 @@ a {
   background-color: white;
 } */
 
-.navbar-container {
+/* .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
-}
+} */
 
 .logo {
   margin-right: auto;
@@ -49,16 +77,17 @@ a {
   cursor: pointer;
 }
 
-.navlinks{
+.navlinks {
   /* margin-right: 50px; */
 }
 
-body {
+/* body {
   margin: 50px;
-}
+} */
 
 a {
-  margin-left: 10px;
+  margin-left: 60px;
+  font-weight: 400;
 }
 
 /* .image-container {

@@ -2,6 +2,7 @@ import { projects } from "../../data";
 import Link from "next/link";
 import Image from "next/image";
 
+
 export const getStaticProps = async ({ params }) => {
   const projectsList = projects.filter((p) => p.id.toString() === params.id);
   return {
@@ -21,33 +22,33 @@ export const getStaticPaths = async () => {
 
 export default ({ project }) => (
   <div>
-    <div className="project-header">
+    <div className="project-header mx-14">
       <div className="project-description">
-        <h2>{project.name}</h2>
-        <p>{project.description}</p>
+        <h2 className="text-3xl mb-2 ">{project.name}</h2>
+        <p className="text-base">{project.description}</p>
       </div>
       <div className="project-links">
         <Link href={project.linkLive} passHref>
-          <a target="_blank" rel="noreferrer">
+          <a className="text-gray-400 hover:text-green-500" target="_blank" rel="noreferrer">
             {project.linkName}
           </a>
         </Link>
         <Link href={project.linkGit} passHref>
-          <a target="_blank" rel="noreferrer">
+          <a className="text-gray-400 hover:text-green-500"target="_blank" rel="noreferrer">
             Git
           </a>
         </Link>
       </div>
     </div>
 
-    <div className="pics">
-      <Image
+    <div className="pics grid grid-flow-col mx-14">
+      {/* <Image
         layout="responsive"
         objectFit="contain"
         width={300}
         height={300}
         src={project.mainImage}
-      />
+      /> */}
 
       {project.detailImage.map((detailUrl) => {
         return (
@@ -67,12 +68,12 @@ export default ({ project }) => (
       })}
     </div>
 
-    <div className="project-navbuttons">
+    <div className="project-navbuttons mx-14">
       <Link href={`/projects/[id]`} as={`/projects/${project.id - 1}`} passHref>
-        <button>{project.id > 1 ? "Previous" : ""}</button>
+        <button className="text-gray-400 hover:text-green-500">{project.id > 1 ? "Previous" : ""}</button>
       </Link>
       <Link href={`/projects/[id]`} as={`/projects/${project.id + 1}`} passHref>
-        <button>{project.id < 8 ? "Next" : ""}</button>
+        <button className="text-gray-400 hover:text-green-500">{project.id < 8 ? "Next" : ""}</button>
       </Link>
     </div>
   </div>

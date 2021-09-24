@@ -62,8 +62,8 @@ export const projects = [
     linkLive: "https://shrouded-fortress-50245.herokuapp.com/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/php_pokedex",
-    mainImage: "/Pokedex/pokedex-1.jpg",
-    detailImage: ["/Pokedex/pokedex-1.jpg"],
+    mainImage: "/Pokedex/Pokedex-1.jpg",
+    detailImage: ["/Pokedex/Pokedex-1.jpg"],
   },
   {
     id: 7,
@@ -85,7 +85,7 @@ export const projects = [
     linkLive: "",
     linkName: "",
     linkGit: "",
-    mainImage: "/TO_be_defined/FLWR.jpg",
-    detailImage: ["/TO_be_defined/FLWR.jpg"],
+    mainImage: "/To_be_defined/FLWR.jpg",
+    detailImage: ["/To_be_defined/FLWR.jpg"],
   },
 ];

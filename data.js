@@ -18,8 +18,8 @@ export const projects = [
     linkLive: "https://delish-delights.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/vue-api",
-    mainImage: "/Delish/Delish-2.jpg",
-    detailImage: ["/Delish/Delish-1.jpg"],
+    mainImage: "/Delish/delish-laptop.jpg",
+    detailImage: ["/Delish/delish-mockup-phone.jpg","/Delish/delish-ipad.jpg"],
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ export const projects = [
     linkLive: "https://react-to-do-app-mick.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/react-intro",
-    mainImage: "/Todo/todo-1.jpg",
+    mainImage: "/Todo/Todo-App.jpg",
     detailImage: ["/Todo/todo-1.jpg"],
   },
 
@@ -55,7 +55,7 @@ export const projects = [
     linkLive: "https://weather-app-mick.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/weather-app",
-    mainImage: "/Weather/weather-phone-mockup-3.jpg",
+    mainImage: "/Weather/weather-phone-mockup-rio.jpg",
     detailImage: ["/Weather/weather-laptop-mockup-rio.jpg", "/Weather/weather-phone-mockup-rio.jpg"],
   },
   {
@@ -71,7 +71,7 @@ export const projects = [
   },
   {
     id: 7,
-    name: "Rock paper scissors spock",
+    name: "Rock Paper Scissors Spock",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     linkLive: "https://mick-rock-paper.netlify.app/",
@@ -79,7 +79,7 @@ export const projects = [
     linkGit:
       "https://github.com/MickDellaert/01-rock-paper-scissors-lizard-spock",
     mainImage: "/RockPaper/Rock-ipad-mockup.jpg",
-    detailImage: ["/RockPaper/Rock-1.jpg"],
+    detailImage: ["/RockPaper/Rock-ipad-mockup.jpg","/RockPaper/rock-phone.jpg"],
   },
   {
     id: 8,
@@ -90,6 +90,6 @@ export const projects = [
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/FLWR",
     mainImage: "/FLWR/FLWR.jpg",
-    detailImage: ["/FLWR/FLWR.jpg","/FLWR/FLWR-bottom.jpg"],
+    detailImage: ["/FLWR/FLWR-top.jpg","/FLWR/FLWR-bottom.jpg"],
   },
 ];

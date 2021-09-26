@@ -4,7 +4,7 @@ import Hero from "./Hero";
 const Layout = ({ children }) => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <main>{children}</main>
     </>

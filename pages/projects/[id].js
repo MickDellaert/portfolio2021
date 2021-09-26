@@ -1,6 +1,7 @@
 import { projects } from "../../data";
 import Link from "next/link";
 import Image from "next/image";
+import Navbar from "../../components/Navbar";
 
 
 export const getStaticProps = async ({ params }) => {
@@ -21,10 +22,12 @@ export const getStaticPaths = async () => {
 };
 
 export default ({ project }) => (
-  <div>
-    <div className="project-header mx-14">
+  <>
+  <Navbar/>
+  <div className="">
+    <div className="project-header mx-16 mt-36">
       <div className="project-description">
-        <h2 className="text-3xl mb-2 ">{project.name}</h2>
+        <h2 className="project-title text-3xl mb-2 ">{project.name}</h2>
         <p className="text-base">{project.description}</p>
       </div>
       <div className="project-links">
@@ -41,7 +44,7 @@ export default ({ project }) => (
       </div>
     </div>
 
-    <div className="pics grid grid-flow-col mx-14">
+    <div className="pics grid grid-flow-col mx-16">
       {/* <Image
         layout="responsive"
         objectFit="contain"
@@ -68,7 +71,7 @@ export default ({ project }) => (
       })}
     </div>
 
-    <div className="project-navbuttons mx-14">
+    <div className="project-navbuttons mx-16">
       <Link href={`/projects/[id]`} as={`/projects/${project.id - 1}`} passHref>
         <button className="text-gray-400 hover:text-green-500">{project.id > 1 ? "Previous" : ""}</button>
       </Link>
@@ -77,4 +80,5 @@ export default ({ project }) => (
       </Link>
     </div>
   </div>
+  </>
 );

@@ -1,8 +1,11 @@
 import Hero from "../components/Hero";
+import About from "../components/About";
+import Project from "../components/Project";
+import Header from "../components/Header";
 
 import { projects } from "../data";
 
-import Project from "../components/Project";
+
 
 export const getStaticProps = async () => {
   return {
@@ -15,11 +18,15 @@ export const getStaticProps = async () => {
 export default ({ projectsLists }) => (
   <>
     {" "}
-    <Hero />
-    <div id="projects" className="grid md:grid-cols-2 xl:grid-cols-4 md:m-16 pics">
+    <Header/>
+    <div
+      id="projects"
+      className="pics grid md:grid-cols-2 gap-4 xl:grid-cols-4 mx-4 md:mx-16 md:mb-16"
+    >
       {projectsLists.map((projectsList) => (
         <Project key={projectsList.id} {...projectsList} />
       ))}
     </div>
+    <About />
   </>
 );

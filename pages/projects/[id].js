@@ -71,7 +71,7 @@ export default ({ project }) => (
       })}
     </div>
 
-    <div className="project-navbuttons h-16 py-3 md:mx-16">
+    <div className="project-navbuttons h-16 py-3 mx-4 md:mx-16">
       <Link href={`/projects/[id]`} as={`/projects/${project.id - 1}`} passHref>
         <a className="text-gray-500 hover:text-green-600">{project.id > 1 ? "◁ Previous" : ""}</a>
       </Link>

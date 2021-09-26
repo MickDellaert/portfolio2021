@@ -12,28 +12,6 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Review app",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    linkLive: "https://angular-review-mick.herokuapp.com/",
-    linkName: "Live",
-    linkGit: "https://github.com/MickDellaert/angular-review-app",
-    mainImage: "/Review/Reviewapp-1.jpg",
-    detailImage: [ "/Review/Reviewapp-1.jpg", "/Review/reviewapp-phone-mockup.jpg"],
-  },
-  {
-    id: 3,
-    name: "Todo app",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    linkLive: "https://react-to-do-app-mick.netlify.app/",
-    linkName: "Live",
-    linkGit: "https://github.com/MickDellaert/react-intro",
-    mainImage: "/Todo/todo-1.jpg",
-    detailImage: ["/Todo/todo-1.jpg"],
-  },
-  {
-    id: 4,
     name: "Delish Delights",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -43,6 +21,32 @@ export const projects = [
     mainImage: "/Delish/Delish-2.jpg",
     detailImage: ["/Delish/Delish-1.jpg"],
   },
+  {
+    id: 3,
+    name: "Review app",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    linkLive: "https://angular-review-mick.herokuapp.com/",
+    linkName: "Live",
+    linkGit: "https://github.com/MickDellaert/angular-review-app",
+    mainImage: "/Review/Reviewapp-1.jpg",
+    detailImage: [
+      "/Review/Reviewapp-1.jpg",
+      "/Review/reviewapp-phone-mockup.jpg",
+    ],
+  },
+  {
+    id: 4,
+    name: "Todo app",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    linkLive: "https://react-to-do-app-mick.netlify.app/",
+    linkName: "Live",
+    linkGit: "https://github.com/MickDellaert/react-intro",
+    mainImage: "/Todo/todo-1.jpg",
+    detailImage: ["/Todo/todo-1.jpg"],
+  },
+
   {
     id: 5,
     name: "Weather app",

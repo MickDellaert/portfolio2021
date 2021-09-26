@@ -116,6 +116,7 @@ a {
 
 .grid-image-container {
   position: relative;
+  cursor: pointer;
 }
 
 .grid-overlay {
@@ -211,4 +212,8 @@ a {
 
 img {
   display: block;
+}
+
+.portrait{
+  opacity: 0.7;
 }

@@ -56,7 +56,7 @@ export const projects = [
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/weather-app",
     mainImage: "/Weather/weather-phone-mockup-3.jpg",
-    detailImage: ["/Weather/Weather-1.jpg"],
+    detailImage: ["/Weather/weather-laptop-mockup-rio.jpg", "/Weather/weather-phone-mockup-rio.jpg"],
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ export const projects = [
     linkLive: "https://mickdellaert.github.io/FLWR/details.html",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/FLWR",
-    mainImage: "/To_be_defined/FLWR.jpg",
-    detailImage: ["/To_be_defined/FLWR.jpg"],
+    mainImage: "/FLWR/FLWR.jpg",
+    detailImage: ["/FLWR/FLWR.jpg","/FLWR/FLWR-bottom.jpg"],
   },
 ];

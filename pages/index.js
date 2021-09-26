@@ -19,8 +19,9 @@ export default ({ projectsLists }) => (
   <>
     {" "}
     <Header/>
+    <div id="projects" className="projects-anchor">
+</div> 
     <div
-      id="projects"
       className="pics grid md:grid-cols-2 gap-4 xl:grid-cols-4 mx-4 md:mx-16 md:mb-16"
     >
       {projectsLists.map((projectsList) => (

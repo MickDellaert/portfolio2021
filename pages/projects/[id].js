@@ -25,7 +25,7 @@ export default ({ project }) => (
   <>
   <Navbar/>
   <div className="">
-    <div className="project-header mx-16 mt-36">
+    <div className="project-header m-4 md:mx-16 mt-36">
       <div className="project-description">
         <h2 className="project-title text-3xl mb-2 ">{project.name}</h2>
         <p className="text-base">{project.description}</p>
@@ -44,7 +44,7 @@ export default ({ project }) => (
       </div>
     </div>
 
-    <div className="pics grid grid-flow-col mx-16">
+    <div className="pics grid grid-col md:grid-flow-col mx-4 md:mx-16">
       {/* <Image
         layout="responsive"
         objectFit="contain"
@@ -71,7 +71,7 @@ export default ({ project }) => (
       })}
     </div>
 
-    <div className="project-navbuttons mx-16">
+    <div className="project-navbuttons h-16 mx-4 md:mx-16">
       <Link href={`/projects/[id]`} as={`/projects/${project.id - 1}`} passHref>
         <button className="text-gray-400 hover:text-green-500">{project.id > 1 ? "Previous" : ""}</button>
       </Link>

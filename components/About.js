@@ -2,9 +2,9 @@ import Image from "next/dist/client/image";
 
 const About = () => {
   return (
-    <div id="about" className="about-container bg-white h-screen p-4 md:p-16">
-      <div className="hero grid grid-cols-8 border-b-2 border-green-600 bg-gray-100 p-16">
-        <h1 className="col-span-6 text-4xl leading-relaxed">
+    <div id="about" className="about-container bg-white h-screen py-16">
+      <div className="hero grid grid-cols-8 border-b-2 border-green-600 bg-gray-100 mx-4 md:mx-16 p-4 md:p-16">
+        <h1 className="col-span-6 text-lg md:text-4xl md:leading-relaxed">
           Hello, I'm <span className="span line">Mick</span>,<br /> an
           experienced <span className="span2">graphic designer</span> and{" "}
           <span className="span2">dtp-operator.</span> <br />

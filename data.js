@@ -18,7 +18,7 @@ export const projects = [
     linkLive: "https://delish-delights.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/vue-api",
-    mainImage: "/Delish/Delish-laptop-grid-2.jpg",
+    mainImage: "/Delish/delish-laptop-grid-2.jpg",
     detailImage: ["/Delish/Delish-mockup-phone.jpg","/Delish/delish-ipad.jpg"],
   },
   {

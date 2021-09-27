@@ -7,8 +7,8 @@ export const projects = [
     linkLive: "https://kittychat-app.herokuapp.com/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/chatroom-exercise",
-    mainImage: "/KittyChat/KittyChat.jpg",
-    detailImage: ["/KittyChat/KittyChat.jpg"],
+    mainImage: "/KittyChat/KittyChat-grid.jpg",
+    detailImage: ["/KittyChat/KittyChat-grid.jpg"],
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const projects = [
     linkLive: "https://delish-delights.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/vue-api",
-    mainImage: "/Delish/Delish-laptop-grid.jpg",
+    mainImage: "/Delish/Delish-laptop-grid-2.jpg",
     detailImage: ["/Delish/Delish-mockup-phone.jpg","/Delish/delish-ipad.jpg"],
   },
   {
@@ -43,8 +43,8 @@ export const projects = [
     linkLive: "https://react-to-do-app-mick.netlify.app/",
     linkName: "Live",
     linkGit: "https://github.com/MickDellaert/react-intro",
-    mainImage: "/Todo/Todo-App.jpg",
-    detailImage: ["/Todo/todo-1.jpg"],
+    mainImage: "/Todo/Todo-App-grid.jpg",
+    detailImage: ["/Todo/Todo-App-grid.jpg"],
   },
 
   {

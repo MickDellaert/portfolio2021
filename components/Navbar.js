@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav>
         <div className="navbar-wrapper fixed top-0 left-0 right-0 w-full z-10 bg-white">
           <div
-            className={`navbar-container flex justify-between items-end mx-4 md:mx-16 py-4 ${
+            className={`navbar-container flex justify-between items-end mx-6 md:mx-16 py-4 ${
               colorChange
                 ? "bg-white border-b-2 border-white"
                 : "bg-white border-b-2 border-green-600"
@@ -47,9 +47,9 @@ const Navbar = () => {
             </div>
 
             <div className="navlinks">
-              <Link href="/" passHref>
+              {/* <Link href="/" passHref>
                 <a className={`${colorChange ? "text-green-600 hover:text-black" : "text-black hover:text-green-600"}`}>Home</a>
-              </Link>
+              </Link> */}
               <Link href="/#projects" passHref>
               <a className={`${colorChange ? "text-green-600 hover:text-black" : "text-black hover:text-green-600"}`}>Projects</a>
               </Link>

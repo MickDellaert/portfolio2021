@@ -117,12 +117,11 @@ a {
 .grid-image-container {
   position: relative;
   cursor: pointer;
-  transition: all .2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
 }
 
 .grid-image-container:hover {
   transform: scale(1.01);
-  
 }
 
 .grid-overlay {
@@ -132,7 +131,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(5, 150, 105, 0.7);
+  background: rgb(5, 150, 105, 0.6);
   color: white;
   display: flex;
   justify-content: center;
@@ -152,7 +151,6 @@ a {
 
 .grid-overlay:hover > div {
   transform: translateY(0) scale(1.1);
-  
 }
 
 .grid-title {
@@ -192,9 +190,6 @@ a {
 
 .hero {
   /* height: 70vh; */
-  /* display: flex;
-  flex-direction: row; */
-  /* flex-grow: 1; */
 }
 
 .project-title {
@@ -223,4 +218,15 @@ img {
 
 .portrait {
   opacity: 0.85;
+}
+
+@media only screen and (max-width: 1279px) {
+
+  .parallax-inner {
+    transform: none !important;
+  }
+
+  .grid-overlay{
+    display: none;
+  }
 }

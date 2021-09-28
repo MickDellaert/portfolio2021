@@ -194,7 +194,7 @@ a {
 
 .project-title {
   font-family: "Libre Franklin", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* .header-container {
@@ -205,12 +205,19 @@ a {
   margin-top: 80px;
 } */
 
-/* .projects-anchor {
+.projects-anchor {
+  display: block;
+  position: relative;
+  top: -30px;
+  visibility: hidden;
+}
+
+.about-anchor {
   display: block;
   position: relative;
   top: -80px;
   visibility: hidden;
-} */
+}
 
 img {
   display: block;
@@ -218,6 +225,10 @@ img {
 
 .portrait {
   opacity: 0.85;
+}
+
+.about-container{
+  background-color: #f1f1f1;
 }
 
 @media only screen and (max-width: 1279px) {
@@ -230,3 +241,4 @@ img {
     display: none;
   }
 }
+

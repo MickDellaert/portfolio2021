@@ -24,27 +24,27 @@ export const getStaticPaths = async () => {
 export default ({ project }) => (
   <>
   <Navbar/>
-  <div className="">
-    <div className="project-header m-4 md:mx-16 mt-36">
-      <div className="project-description">
-        <h2 className="project-title text-3xl mb-2 ">{project.name}</h2>
-        <p className="text-base mb-2">{project.description}</p>
+  <main className="project-container mx-6 md:mx-16 2xl:mx-24">
+    <div className="project-header mt-44">
+      <div className="project-description-container">
+        <h2 className="project-title text-3xl mb-2">{project.name}</h2>
+        <p className="text-lg mb-4">{project.description}</p>
       </div>
-      <div className="project-links">
+      <div className="project-links pb-4">
         <Link href={project.linkLive} passHref>
-          <a className="livelink text-gray-500 hover:text-green-600 mr-4" target="_blank" rel="noreferrer">
+          <a className="livelink text-gray-500 hover:text-green-600 mr-6" target="_blank" rel="noreferrer">
             {project.linkName}
           </a>
         </Link>
         <Link href={project.linkGit} passHref>
           <a className="gitlink text-gray-500 hover:text-green-600"target="_blank" rel="noreferrer">
-            Git
+            Github
           </a>
         </Link>
       </div>
     </div>
 
-    <div className="pics grid grid-col md:grid-flow-col mx-4 md:mx-16">
+    <div className="pics grid grid-col md:grid-flow-col">
       {/* <Image
         layout="responsive"
         objectFit="contain"
@@ -71,7 +71,7 @@ export default ({ project }) => (
       })}
     </div>
 
-    <div className="project-navbuttons h-16 py-3 mx-4 md:mx-16">
+    <div className="project-navbuttons h-16 py-3">
       <Link href={`/projects/[id]`} as={`/projects/${project.id - 1}`} passHref>
         <a className="text-gray-500 hover:text-green-600">{project.id > 1 ? "Previous" : ""}</a>
       </Link>
@@ -79,6 +79,6 @@ export default ({ project }) => (
         <a className="text-gray-500 hover:text-green-600">{project.id < 8 ? "Next" : ""}</a>
       </Link>
     </div>
-  </div>
+  </main>
   </>
 );

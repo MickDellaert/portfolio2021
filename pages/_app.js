@@ -9,9 +9,9 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
         <ParallaxProvider>
-      <Layout>
+      {/* <Layout> */}
         <Component {...pageProps} />
-      </Layout>
+      {/* </Layout> */}
       </ParallaxProvider>
     </>
   );

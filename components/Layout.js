@@ -1,14 +1,15 @@
-import Navbar from "./Navbar";
-import Hero from "./Hero";
+// import Navbar from "./Navbar";
+// import Hero from "./Hero";
+// import Footer from "./Footer";
 
-const Layout = ({ children }) => {
-  return (
-    <>
-      {/* <Navbar /> */}
+// const Layout = ({ children }) => {
+//   return (
+//     <>
+//       <Navbar />
 
-      <main>{children}</main>
-    </>
-  );
-};
+//       <main>{children}</main>
+//     </>
+//   );
+// };
 
-export default Layout;
+// export default Layout;

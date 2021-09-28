@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Project from "../components/Project";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 import { projects } from "../data";
 
@@ -17,12 +18,17 @@ export default ({ projectsLists }) => (
   <>
     {" "}
     <Header />
-    <div id="projects" className="projects-anchor  "></div>
-    <div className="pics grid md:grid-cols-2 2xl:grid-cols-4 gap-6 mx-6 mb-6 xl:pt-16 md:mx-16 md:mb-16 bg-white relative">
+    <main>
+    <div id="projects" className="projects-anchor"></div>
+
+    <section id="" className="pics grid md:grid-cols-2 2xl:grid-cols-4 gap-6 mx-6 md:mx-16 2xl:mx-24 mb-6 md:mb-16 2xl:mb-32 xl:pt-16 bg-white relative">
+
       {projectsLists.map((projectsList) => (
         <Project key={projectsList.id} {...projectsList} />
       ))}
-    </div>
+    </section>
     <About />
+    </main>
+    <Footer/>
   </>
 );

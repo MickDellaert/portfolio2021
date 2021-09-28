@@ -2,10 +2,10 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 
 const Header = () => {
-    return ( <div className="header-container w-full">
+    return ( <header className="header-container w-full">
         <Navbar/>
         <Hero/>
-    </div> );
+    </header> );
 }
  
 export default Header;

@@ -6,15 +6,15 @@ const About = () => {
       <div id="about" className="about-anchor"></div>
 
       <section className="about-container bg-gray-100">
-        <div className="grid gap-6 grid-rows-auto md:grid-cols-3 xl:grid-cols-4 border-b-2 mx-6 md:mx-32 md:py-16">
-          <h1 className="text-lg md:text-4xl md:col-span-2 xl:col-span-3 md:leading-relaxed">
-            Hello, I'm <span className="span line">Mick</span>,<br /> an
-            experienced <span className="span2">graphic designer</span> and{" "}
-            <span className="span2">dtp-operator.</span> <br />
-            Currently on a <span className="span line">journey</span> of
-            becoming a <span className="span">web developer</span>.
-          </h1>
-          <p className="md:order-5 md:col-span-3 xl:col-span-3">
+        <div className="grid gap-6 grid-rows-auto md:grid-cols-3 xl:grid-cols-8 border-b-2 mx-6 md:mx-16 2xl:mx-24 md:py-16">
+        <h1 className="header-title leading-snug col-span-8 2xl:col-start-2 2xl:col-span-7 text-4xl md:leading-snug lg:text-5xl lg:leading-snug">
+          Hello! I'm <span className="span line">Mick Dellaert</span>, an
+          experienced <span className="span2">graphic designer</span> and{" "}
+          <span className="span2">dtp-operator</span>,
+          currently on a <span className="span line">journey ↓</span> of
+          becoming a <span className="span">web developer</span>.
+        </h1>
+          <p className="md:order-5 md:col-span-3 xl:col-span-6 xl:order-3 xl:col-start-3 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
             excepturi esse dolorem praesentium? Rerum, temporibus. Fugit
             accusamus at quas obcaecati quisquam, expedita labore cumque ratione
@@ -40,7 +40,7 @@ const About = () => {
             Maxime, vero optio. Impedit natus autem voluptate ipsum delectus
             inventore ea?
           </p>
-          <div className="portrait md:order-3 xl:order-4">
+          <div className="portrait xl:col-span-2 xl:col-start-1 xl:order-1">
             <Image
               layout="responsive"
               objectFit="cover"

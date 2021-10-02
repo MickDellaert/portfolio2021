@@ -14,7 +14,7 @@ export const projects = [
     id: 2,
     name: "Delish Delights",
     description:
-      "Have some left-overs in the fridge? Get some inspiration with this app and search by ingredient. Built with Vue and the meal API",
+      "Have some left-overs in the fridge? Get some inspiration with this app and search recipes by ingredient. Built with Vue and the meal API",
     linkLive: "https://delish-delights.netlify.app/",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/vue-api",

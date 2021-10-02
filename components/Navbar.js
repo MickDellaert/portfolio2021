@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav>
         <div className="navbar-wrapper fixed top-0 left-0 right-0 w-full z-10 bg-white ">
           <div
-            className={`navbar-container flex justify-between items-center mx-6 md:mx-16 2xl:mx-24 h-20 ${
+            className={`navbar-container flex justify-between items-center mx-6 md:mx-16 2xl:mx-40 h-20 ${
               colorChange
                 ? "bg-white border-b-2 border-white"
                 : "bg-white border-b-2 border-green-600"

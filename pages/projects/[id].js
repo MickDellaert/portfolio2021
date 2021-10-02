@@ -24,7 +24,7 @@ export const getStaticPaths = async () => {
 export default ({ project }) => (
   <>
   <Navbar/>
-  <main className="project-container mx-6 md:mx-16 2xl:mx-24">
+  <main className="project-container mx-6 md:mx-16 2xl:mx-40">
     <div className="project-header mt-44">
       <div className="project-description-container">
         <h2 className="project-title text-3xl mb-2">{project.name}</h2>
@@ -62,7 +62,7 @@ export default ({ project }) => (
                 objectFit="contain"
                 width={300}
                 height={300}
-                alt={project.description}
+                alt={project.name}
                 src={detailUrl}
               />
             </div>

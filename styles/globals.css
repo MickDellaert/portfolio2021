@@ -2,16 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Koh+Santepheap&family=Martel:wght@200;300;400;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Koh+Santepheap&family=Martel:wght@200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500.600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
 html,
 body {
   padding: 0;
@@ -42,6 +44,14 @@ h1 {
 .span2 {
   color: grey;
   white-space: nowrap;
+}
+
+.span3{
+  white-space: nowrap;
+}
+
+.span4 {
+  color: grey;
 }
 
 .line {
@@ -205,7 +215,7 @@ a {
 } 
 
 .project-title {
-  font-family: "Dm sans", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
 }
 
@@ -248,6 +258,13 @@ img {
 
   .grid-overlay{
     display: none;
+  }
+
+  .projects-anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
   }
 }
 

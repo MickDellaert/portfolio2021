@@ -9,7 +9,7 @@ const Project = ({ id, name, description, mainImage }) => (
           layout="responsive"
           objectFit="cover"
           src={mainImage}
-          alt={description}
+          alt={name}
           width={200}
           height={200}
           className={"image"}

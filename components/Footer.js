@@ -2,7 +2,9 @@ const Footer = () => {
   return (
     <>
       <footer className="footer-container  bg-green-600 h-64">
-        <div className="flex flex-row justify-between items-center h-full mx-16">
+        <div className="font-bold text-white mx-6 pt-6">
+          {/* <div className="flex flex-row justify-between items-center h-full mx-16"> */}
+
           <h2>mickdellaert@gmail.com</h2>
           <h2>LinkedIn</h2>
           <h2>Github</h2>

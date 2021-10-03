@@ -179,6 +179,11 @@ img {
   background-color: #f1f1f1;
 }
 
+.hero {
+  /* height: 70vh; */
+  transform: translate3d(0,0,0);
+}
+
 .parallax-inner {
   transform: translate3d(0, 0, 0);
 }

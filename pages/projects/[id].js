@@ -28,7 +28,7 @@ export default ({ project }) => (
     <div className="project-header mt-44">
       <div className="project-description-container">
         <h2 className="project-title text-3xl mb-2">{project.name}</h2>
-        <p className="text-lg mb-4">{project.description}</p>
+        <p className="text-xl mb-4">{project.description}</p>
       </div>
       <div className="project-links pb-4">
         <Link href={project.linkLive} passHref>

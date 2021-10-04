@@ -28,7 +28,7 @@ export default ({ project }) => (
     <div className="project-header mt-44">
       <div className="project-description-container">
         <h2 className="project-title text-3xl mb-2">{project.name}</h2>
-        <p className="text-xl mb-4">{project.description}</p>
+        <p className="text-xl mb-8">{project.description}</p>
       </div>
       <div className="project-links pb-4">
         <Link href={project.linkLive} passHref>
@@ -44,7 +44,7 @@ export default ({ project }) => (
       </div>
     </div>
 
-    <div className="pics grid grid-col md:grid-flow-col">
+    <div className="pics grid auto-cols-fr lg:grid-flow-col">
       {/* <Image
         layout="responsive"
         objectFit="contain"

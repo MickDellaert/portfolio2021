@@ -5,41 +5,45 @@ const About = () => {
     <>
       <div id="about" className="about-anchor"></div>
 
-      <section className="about-container bg-gray-100">
-        <div className="grid grid-cols-1 md:grid-cols-8 gap-6 mx-6 md:mx-16 2xl:mx-40 pt-6 md:pt-16 2xl:pt-32">
-          <h1 className="header-title leading-relaxed text-4xl text-green-600">
+      <section className="about-container bg-gray-100 p-6 md:p-16 2xl:px-40">
+        {/* <div className="grid grid-cols-1 md:grid-cols-8 gap-6 mx-6 md:mx-16 2xl:mx-40 pt-6 md:pt-16 2xl:pt-32">
+          <h1 className="header-title leading-normal text-4xl text-green-600">
             About
           </h1>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-8 gap-6 mx-6 md:mx-16 2xl:mx-40 md:pb-16 2xl:pb-32">
-          <div className="about-text mt-6 md:mt-0 md:col-span-4 lg:col-span-6 2xl:col-start-1 ">
-            <p className="text-xl leading-snug">
-              Hello again, I'm Mick, a graphic designer, creative dtp-operator
-              and junior web developer from Antwerp. Nice to meet you.
+        <div className="grid grid-cols-1 md:grid-cols-8 gap-6">
+          <div className="about-text md:col-span-8 xl:col-span-5 xl:row-span-2 2xl:col-span-5">
+            <h1 className="header-title leading-normal text-4xl text-black mb-4">
+              About
+            </h1>
+            <p className="text-xl leading-normal">
+              Hi, I'm Mick, an experienced graphic designer, knowledgeable dtp-operator and aspiring
+              web developer from Antwerp. Nice to meet you, welcome to my portfolio.
               <br></br>
               <br></br>
-
-              Above are some of the projects I made during a six months full time training
-              at BeCode Antwerp, they represent the first steps I have been
-              taking in my ambition of becoming a web developer. More projects
-              can be found on my Github profile. 
+              On this website you can find some of the projects I made with new skills learned during a seven-months professional Junior Web Developer training 
+              at BeCode Antwerp. 
+              They represent the first steps I have been taking in my ambition of becoming a full stack developer with an emphasis on front-end. 
+              More projects can be found on my  <a href="https://github.com/MickDellaert" target="_blank">Github</a> profile.
               <br></br>
               <br></br>
-
-              Previously, during my career as a graphic designer I have worked on a broad range of projects:
-              making layouts for books, magazines, advertisments and news
-              papers; designing POS-materials, logo's, trade stands, interactive
-              magazines, websites and illustrations.
+              Up until now I have been working in the graphic design industry, mainly for printed output.
+              During my <a href="https://www.linkedin.com/in/mick-dellaert" target="_blank">career</a> I have worked on a broad range of projects: making layouts for books, magazines,
+              advertisments and newspapers; designing POS-materials, logo's,
+              trade stands, interactive magazines, websites and illustrations. 
               <br></br>
               <br></br>
-              I would love to add a more dynamic and interactive layer to my skills and enter the world of
-              web development with it's endless posibilities and exciting
-              prospects. Currently I am actively looking for an internship and
-              continue my journey.
+              Currently, I would love to add a more dynamic and interactive
+              layer to my skills and enter the world of web development with
+              it's endless posibilities and exciting prospects. At the moment I
+              am actively looking for an internship, hoping to contribute and
+              complete my new knowledge in a fresh position and continue my
+              journey. If I sparked your interest, don't hesitate to <a href = "mailto: mickdellaert@yahoo.com">contact</a> me.
+              
             </p>
           </div>
-          <div className="portrait mb-6 md:mb-0 md:col-span-4 lg:col-span-2">
+          <div className="portrait mt-6 xl:mt-0 md:col-span-3 xl:col-span-2 xl:col-start-7 md:mt-6 2xl:col-span-2 2xl:col-start-7">
             <Image
               layout="responsive"
               objectFit="cover"
@@ -49,6 +53,14 @@ const About = () => {
               height={200}
               className={"image"}
             />
+          </div>
+          <div className="contact font-bold text-green-600 text-xl my-6 md:mb-0 md:col-span-4 xl:col-span-2 xl:col-start-7 2xl:col-span-2 2xl:col-start-7 self-end">
+            <h1 className="leading-normal text-4xl text-black mb-4">
+              Contact
+            </h1>
+            <a className="contact-link leading-relaxed" href="https://www.linkedin.com/in/mick-dellaert" target="_blank">LinkedIn</a>
+            <a className="contact-link leading-relaxed" href="https://github.com/MickDellaert" target="_blank">Github</a>
+            <a className="contact-link leading-relaxed" href = "mailto: mickdellaert@yahoo.com">mickdellaert@gmail.com</a> 
           </div>
         </div>
       </section>

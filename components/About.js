@@ -29,9 +29,8 @@ const About = () => {
               <br></br>
               <br></br>
               Up until now I have been working in the graphic design industry, mainly for printed output.
-              During my <a href="https://www.linkedin.com/in/mick-dellaert" target="_blank">career</a> I have worked on a broad range of projects: making layouts for books, magazines,
-              advertisments and newspapers; designing POS-materials, logo's,
-              trade stands, interactive magazines, websites and illustrations. 
+              During my <a href="https://www.linkedin.com/in/mick-dellaert" target="_blank">career</a> I have worked on a broad range of projects: making layouts for books, magazines, advertisments and newspapers; designing packaging, POS-materials, logo's,
+              exhibition stands, interactive magazines, websites and illustrations. 
               <br></br>
               <br></br>
               Currently, I would love to add a more dynamic and interactive
@@ -60,6 +59,7 @@ const About = () => {
             </h1>
             <a className="contact-link leading-relaxed" href="https://www.linkedin.com/in/mick-dellaert" target="_blank">LinkedIn</a>
             <a className="contact-link leading-relaxed" href="https://github.com/MickDellaert" target="_blank">Github</a>
+            <p className="contact-link leading-relaxed">0488 244 705</p>
             <a className="contact-link leading-relaxed" href = "mailto: mickdellaert@yahoo.com">mickdellaert@gmail.com</a> 
           </div>
         </div>

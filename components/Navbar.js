@@ -34,8 +34,8 @@ const Navbar = () => {
                   <Image
                     src={
                       colorChange
-                        ? "/MD_logo/MD_logo_2_green.svg"
-                        : "/MD_logo/MD_logo_2-01.svg"
+                        ? "/MD_logo/MD_logo_courier_prime_green.svg"
+                        : "/MD_logo/MD_logo_courier_prime_black.svg"
                     }
                     alt="logo"
                     width={40}

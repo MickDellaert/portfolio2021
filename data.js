@@ -90,7 +90,7 @@ export const projects = [
     id: 8,
     name: "FLWR",
     description:
-      "Order some lovely bouquets on the FLWR website. I made the details page in this group effort, making this the first webpage I ever made Built with Bootstrap and Sass.",
+      "Order some lovely bouquets on the FLWR website. I made the details page in this group effort, making this the first webpage I ever made. Built with Bootstrap and Sass.",
     linkLive: "https://mickdellaert.github.io/FLWR/details.html",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/FLWR",

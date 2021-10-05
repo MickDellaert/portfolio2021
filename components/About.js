@@ -46,7 +46,7 @@ const About = () => {
             <Image
               layout="responsive"
               objectFit="cover"
-              src={"/portret/portret_mick_duotoon_2021.jpg"}
+              src={"/portret/portret-rgb.jpg"}
               alt={"mick"}
               width={200}
               height={200}

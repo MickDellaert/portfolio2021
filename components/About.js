@@ -17,25 +17,25 @@ const About = () => {
             <h1 className="header-title leading-normal text-4xl text-black mb-4">
               About
             </h1>
-            <p className="text-xl leading-normal">
-              Hi, I'm Mick, an experienced graphic designer, knowledgeable dtp-operator and aspiring
+            <p className="text-xl leading-relaxed">
+              Hi, I'm Mick, an experienced graphic designer, knowledgeable dtp-operator, and aspiring
               web developer from Antwerp. Nice to meet you, welcome to my portfolio.
               <br></br>
               <br></br>
-              On this website you can find some of the projects I made with new skills learned during a seven-months professional Junior Web Developer training 
+              On this website you can find some of the projects made with new skills I gained during a seven-month full-time Junior Web Developer training 
               at BeCode Antwerp. 
               They represent the first steps I have been taking in my ambition of becoming a full stack developer with an emphasis on front-end. 
               More projects can be found on my  <a href="https://github.com/MickDellaert" target="_blank">Github</a> profile.
               <br></br>
               <br></br>
               Up until now I have been working in the graphic design industry, mainly for printed output.
-              During my <a href="https://www.linkedin.com/in/mick-dellaert" target="_blank">career</a> I have worked on a broad range of projects: making layouts for books, magazines, advertisments and newspapers; designing packaging, POS-materials, logo's,
-              exhibition stands, interactive magazines, websites and illustrations. 
+              During my <a href="https://www.linkedin.com/in/mick-dellaert" target="_blank">career</a> I have worked on a broad range of projects: making layouts for books, magazines, advertisements, and newspapers; designing packaging, POS materials, logos,
+              exhibition stands, interactive magazines, websites, and illustrations. 
               <br></br>
               <br></br>
               Currently, I would love to add a more dynamic and interactive
-              layer to my skills and enter the world of web development with
-              it's endless posibilities and exciting prospects. At the moment I
+              dimension to my skills and enter the world of web development with
+              its endless possibilities and exciting prospects. At the moment I
               am actively looking for an internship, hoping to contribute and
               complete my new knowledge in a fresh position and continue my
               journey. If I sparked your interest, don't hesitate to <a href = "mailto: mickdellaert@yahoo.com">contact</a> me.
@@ -53,7 +53,7 @@ const About = () => {
               className={"image"}
             />
           </div>
-          <div className="contact font-bold text-green-600 text-xl my-6 md:mb-0 md:col-span-4 xl:col-span-2 xl:col-start-7 2xl:col-span-2 2xl:col-start-7 self-end">
+          <div className="contact font-bold text-green-500 text-xl my-6 md:mb-0 md:col-span-4 xl:col-span-2 xl:col-start-7 2xl:col-span-2 2xl:col-start-7 self-end">
             <h1 className="leading-normal text-4xl text-black mb-4">
               Contact
             </h1>

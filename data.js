@@ -36,9 +36,9 @@ export const projects = [
   },
   {
     id: 4,
-    name: "Todo app",
+    name: "Reminder app",
     description:
-      "Never lose track of your todos with this app, built with React and styled with Tailwind.",
+      "Never lose track of your todos with this Reminder app, built with React and styled with Tailwind.",
     linkLive: "https://react-to-do-app-mick.netlify.app/",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/react-intro",

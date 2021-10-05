@@ -20,17 +20,17 @@ const Navbar = () => {
   return (
     <Fragment>
       <nav>
-        <div className="navbar-wrapper fixed top-0 left-0 right-0 w-full z-10 bg-white ">
+        <div className="navbar-wrapper fixed top-0 left-0 right-0 w-full z-10 bg-white">
           <div
             className={`navbar-container flex justify-between items-center mx-6 md:mx-16 2xl:mx-40 h-20 ${
               colorChange
                 ? "bg-white border-b-2 border-white"
-                : "bg-white border-b-2 border-green-600"
+                : "bg-white border-b-2 border-green-500"
             }`}
           >
             <div className="logo-container self-end mb-4">
               <div className="logo">
-                <Link href="/">
+                <Link href="/" passHref>
                   <Image
                     src={
                       colorChange
@@ -47,14 +47,12 @@ const Navbar = () => {
             </div>
 
             <div className="navlinks self-end mb-3">
-              {/* <Link href="/" passHref>
-                <a className={`${colorChange ? "text-green-600 hover:text-black" : "text-black hover:text-green-600"}`}>Home</a>
-              </Link> */}
+
               <Link href="/#projects" passHref>
-              <a className={`${colorChange ? "text-green-600 hover:text-black" : "text-black hover:text-green-600"}`}>Projects</a>
+              <a className={`${colorChange ? "text-green-500 hover:text-black" : "text-black hover:text-green-500"}`}>Projects</a>
               </Link>
               <Link href="/#about" passHref>
-              <a className={`${colorChange ? "text-green-600 hover:text-black" : "text-black hover:text-green-600"}`}>About</a>
+              <a className={`${colorChange ? "text-green-500 hover:text-black" : "text-black hover:text-green-500"}`}>About</a>
               </Link>
             </div>
           </div>

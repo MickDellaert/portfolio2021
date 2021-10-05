@@ -27,7 +27,7 @@ h1 {
 
 .span-green {
   font-family: "Manrope", sans-serif;
-  color: #059669;
+  color: rgb(16, 185, 129);
   white-space: nowrap;
 }
 
@@ -110,7 +110,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(5, 150, 105, 0.6);
+  background: rgba(16, 185, 129, 0.7);
   color: white;
   display: flex;
   justify-content: center;
@@ -147,7 +147,6 @@ a {
   justify-content: space-between;
 }
 
-
 .header-container {
   margin-top: 80px;
 }
@@ -160,7 +159,7 @@ a {
 .projects-anchor {
   display: block;
   position: relative;
-  top: -30px;
+  top: -20px;
   visibility: hidden;
 }
 

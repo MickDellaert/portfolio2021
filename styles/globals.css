@@ -192,6 +192,11 @@ img {
     display: none;
   }
 
+  .grid-image-container:hover {
+    transform: none;
+  }
+  
+
   .projects-anchor {
     display: block;
     position: relative;

@@ -7,8 +7,8 @@ export const projects = [
     linkLive: "https://kittychat-app.herokuapp.com/",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/chatroom-exercise",
-    mainImage: "/KittyChat/KittyChat-grid.jpg",
-    detailImage: ["/KittyChat/KittyChat-mockup-phone.jpg", "/KittyChat/KittyChat-2.jpg"],
+    mainImage: "/KittyChat/kittychat-grid.jpg",
+    detailImage: ["/KittyChat/kittychat-mockup-phone.jpg", "/KittyChat/kittychat-2.jpg"],
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ export const projects = [
     linkLive: "https://delish-delights.netlify.app/",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/vue-api",
-    mainImage: "/Delish/delish-laptop-grid-2.jpg",
-    detailImage: ["/Delish/Delish-mockup-phone.jpg", "/Delish/delish-ipad.jpg"],
+    mainImage: "/Delish/delish-laptop-grid.jpg",
+    detailImage: ["/Delish/delish-mockup-phone.jpg", "/Delish/delish-ipad.jpg"],
   },
   {
     id: 3,
@@ -28,9 +28,9 @@ export const projects = [
     linkLive: "https://angular-review-mick.herokuapp.com/",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/angular-review-app",
-    mainImage: "/Review/Reviewapp-1.jpg",
+    mainImage: "/Review/reviewapp-1.jpg",
     detailImage: [
-      "/Review/Reviewapp-1.jpg",
+      "/Review/reviewapp-1.jpg",
       "/Review/reviewapp-phone-mockup.jpg",
     ],
   },
@@ -42,8 +42,8 @@ export const projects = [
     linkLive: "https://react-to-do-app-mick.netlify.app/",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/react-intro",
-    mainImage: "/Todo/Todo-App-grid.jpg",
-    detailImage: ["/Todo/Todo-ipad-mockup.jpg", "/Todo/Todo-mockup-phone.jpg"],
+    mainImage: "/Todo/todo-app-grid.jpg",
+    detailImage: ["/Todo/todo-ipad-mockup.jpg", "/Todo/todo-mockup-phone.jpg"],
   },
 
   {
@@ -68,8 +68,8 @@ export const projects = [
     linkLive: "https://shrouded-fortress-50245.herokuapp.com/",
     linkName: "Demo",
     linkGit: "https://github.com/MickDellaert/php_pokedex",
-    mainImage: "/Pokedex/Pokedex-1.jpg",
-    detailImage: ["/Pokedex/Pokedex-closed.jpg","/Pokedex/Pokedex-1.jpg"],
+    mainImage: "/Pokedex/pokedex-open.jpg",
+    detailImage: ["/Pokedex/pokedex-closed.jpg","/Pokedex/pokedex-open.jpg"],
   },
   {
     id: 7,
@@ -80,9 +80,9 @@ export const projects = [
     linkName: "Demo",
     linkGit:
       "https://github.com/MickDellaert/01-rock-paper-scissors-lizard-spock",
-    mainImage: "/RockPaper/Rock-ipad-mockup.jpg",
+    mainImage: "/RockPaper/rock-ipad-mockup.jpg",
     detailImage: [
-      "/RockPaper/Rock-ipad-mockup.jpg",
+      "/RockPaper/rock-ipad-mockup.jpg",
       "/RockPaper/rock-phone.jpg",
     ],
   },

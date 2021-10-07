@@ -73,7 +73,7 @@ export const projects = [
   },
   {
     id: 7,
-    name: "Rock Paper Scissors Spock",
+    name: "Rock Paper Scissors Lizard Spock",
     description:
       "A spin on the classic game, with some added if statements. Made with JS and Bootstrap.",
     linkLive: "https://mick-rock-paper.netlify.app/",

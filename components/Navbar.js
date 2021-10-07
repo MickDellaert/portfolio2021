@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/dist/client/image";
-import { useRouter } from "next/dist/client/router";
+// import { useRouter } from "next/dist/client/router";
 import { useState, Fragment } from "react";
 
 const Navbar = () => {
-  const router = useRouter();
+  // const router = useRouter();
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {

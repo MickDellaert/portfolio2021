@@ -22,7 +22,7 @@ const Hero = () => {
         transform: `translateY(${offset * 0.2}px)`,
       }}
     >
-      <h1 className="header-title col-span-8 2xl:col-start-2 2xl:col-span-7 text-4xl leading-snug md:text-5xl md:leading-snug lg:text-5xl lg:leading-snug xl:text-6xl xl:leading-snug 2xl:leading-snug">
+      <h1 className="header-title col-span-8 2xl:col-start-2 2xl:col-span-7 text-4xl leading-snug md:text-5xl md:leading-snug 2xl:text-6xl 2xl:leading-snug">
         Hello! I'm <span className="span-green">Mick Dellaert</span>,{" "}
         <span className="span-nowrap"> an experienced </span>{" "}
         <span className="span-grey">graphic designer</span>{" "}
